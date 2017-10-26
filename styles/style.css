@@ -8,7 +8,7 @@
   font-weight:600;
   text-decoration: none;
 }
-.menu {
+.BigScreenMenu {
   visibility: hidden;
 }
 .space {
@@ -23,25 +23,38 @@
 }
 .picture {
   width: 206px;
+  border-color: black;
+  border-width: 5px;
 }
 .descriptionBox {
   background-color: yellow;
   height: 300px;
 }
 .portfolioBlock {
-  background-color: teal;
+  background-color: moccasin;
   height: 300px;
 }
 .bottomSpace {
-  background-color: brown
+  background-color: PaleGoldenRod;
 }
 .footer {
   height: 80px;
   background-color: orange;
 }
-@@media screen and (max-width:545px) {
-  !.menu { visibility: visible;
-
+@@media screen and (max-width:768px) {
+  #smallScreenMenu {
+    visibility: visible !important;
   }
+  #gone{
+    visibility: hidden !important;
+    display: none;
+    opacity: 0;
+  }
+  .list-inline{
+    visibility: hidden;
+    display: none;
+    opacity: 0;
+  }
+
 
 }
