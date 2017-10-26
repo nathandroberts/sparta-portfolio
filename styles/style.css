@@ -1,0 +1,27 @@
+.header {
+  height: 80px;
+  background-color: blue;
+}
+.space {
+  height: 80px;
+  background-color: gray;
+}
+.main {
+
+}
+.descriptionBox {
+  background-color: maroon;
+  height: 300px;
+}
+.pictureBox {
+  background-color: green;
+  height: 300px;
+}
+.portfolio {
+  background-color: teal;
+  height: 300px;
+}
+.footer {
+  height: 80px;
+  background-color: black;
+}
