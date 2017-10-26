@@ -1,27 +1,47 @@
+.container{
+  background-color: gold;
+}
 .header {
   height: 80px;
-  background-color: blue;
+  background-color: orange;
+  font-size: 30px;
+  font-weight:600;
+  text-decoration: none;
+}
+.menu {
+  visibility: hidden;
 }
 .space {
   height: 80px;
-  background-color: gray;
 }
-.main {
-
+.topSpace {
+  background-color: gold;
+}
+.pictureContainer {
+  background-color: GoldenRod;
+  height: 300px;
+}
+.picture {
+  width: 206px;
 }
 .descriptionBox {
-  background-color: maroon;
+  background-color: yellow;
   height: 300px;
 }
-.pictureBox {
-  background-color: green;
-  height: 300px;
-}
-.portfolio {
+.portfolioBlock {
   background-color: teal;
   height: 300px;
 }
+.bottomSpace {
+  background-color: brown
+}
 .footer {
   height: 80px;
-  background-color: black;
+  background-color: orange;
+}
+@@media screen and (max-width:545px) {
+  !.menu { visibility: visible;
+
+  }
+
 }
