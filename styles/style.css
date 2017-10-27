@@ -36,7 +36,7 @@
   text-align: center;
 }
 .bottomSpace {
-  background-color: PaleGoldenRod;
+  background-color: Gold;
 }
 .footer {
   height: 80px;
@@ -48,8 +48,8 @@
   }
   #gone{
     visibility: hidden !important;
-    display: none;
-    opacity: 0;
+    display: none !important;
+    opacity: 0 !important;
   }
   .list-inline{
     visibility: hidden;
