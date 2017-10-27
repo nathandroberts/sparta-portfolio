@@ -33,6 +33,7 @@
 .portfolioBlock {
   background-color: moccasin;
   height: 300px;
+  text-align: center;
 }
 .bottomSpace {
   background-color: PaleGoldenRod;

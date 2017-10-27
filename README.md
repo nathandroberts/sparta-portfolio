@@ -1,6 +1,12 @@
 # sparta-portfolio
 Nathan roberts portfolio
 
+# Feedback       
+The most difficult thing to implement was the removal and re-appearance of certain elements depending on the window size (possible due to interactions with !important tags in bootstrap).
+
+I am most pleased with the use of bootstrap (particularly for formatting) as it allowed me to style elements in a more time efficient manner than if i had formatted them manually. I also tried to stick to the main brief at first as instructed rather than try to implement complex new features which allowed me to produce a more complete site in the timespan.
+
+
 Your deliverables for tomorrow 9:00am are:-
 
 *Any of the remaining ones from yesteraday - Below*
